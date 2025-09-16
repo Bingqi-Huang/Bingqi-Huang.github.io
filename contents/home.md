@@ -1,15 +1,10 @@
-Beijing, China
-
-\[ [Email](hbq21@mails.tsinghua.edu.cn) | [Github](https://github.com/kkkjhgjhg4) | [Google Scholar]() \]
-
-
-## Short Bio
+## Bingqi Huang
 
 I am a Ph.D. student in Aerospace Engineering at Tsinghua University, starting in August 2025. My research interests include Mobile Manipulation and Human-Robot Interaction.
 
-I received my Bachelor's degree from Xingjian College, Tsinghua University, where I majored in Theoretical and Applied Mechanics & Aerospace Engineering. I was also an exchange student in Robotics at Delft University of Technology.
+I received my Bachelor's degree from Xingjian College, Tsinghua University, where I majored in Theoretical and Applied Mechanics & Aerospace Engineering. I was also an exchange student in Robotics at Delft University of Technology from Sept 2023 to Feb 2024. I did some interesting summer intership at Ericsson doing some FEA for their antennas.
 
-[Email](mailto:bingqih0311@gmail.com) / [CV](static/assets/CV_HBQ.pdf) / [Google Scholar]() / [Github](https://github.com/kkkjhgjhg4)
+[Email](mailto:bingqih0311@gmail.com) / [CV](static/assets/CV_HBQ.pdf) / [Github](https://github.com/Bingqi-Huang)
 
 ## Research
 
@@ -23,25 +18,3 @@ I received my Bachelor's degree from Xingjian College, Tsinghua University, wher
 *   *Advisor: Prof. Zhaokui, Wang, School of Aerospace Engineering, Tsinghua University*
 *   Designed and prototyped a n-wheel independent driving and steering Mobile Manipulation Robot.
 *   Designed a holistic controller for the Mobile Manipulator with Sim-to-Real implementation.
-
-
-<!-- ### Research Interests
-
-Robotics, Soft Actuation, intelligent control, simulation to reality. -->
-
-
-## Misc
-
-**_Do Something Great._**
-
-### Bingqi Huang
-
-School of Aerospace Engineering, Tsinghua University, P.R. China
-
-\[ [Email](mailto:bingqih0311@gmail.com) | [CV](static/assets/CV_HBQ.pdf) | [Google Scholar]() | [Github](https://github.com/kkkjhgjhg4) \]
-
-### About Me
-
-I am a Ph.D. student in Aerospace Engineering at Tsinghua University, starting in August 2025. My research interests include Mobile Manipulation and Human-Robot Interaction.
-
-I received my Bachelor's degree from Xingjian College, Tsinghua University, where I majored in Theoretical and Applied Mechanics & Aerospace Engineering. I was also an exchange student in Robotics at Delft University of Technology.

@@ -2,11 +2,11 @@
 
 
 :root{
-    --h-title-color:#000000;
+    --h-title-color:#3948d2;
 }
 
 .header {
-    border-bottom: solid 2px #000000;
+    border-bottom: solid 2px var(--bs-blue);
 }
 
 .bg-bottom {
@@ -42,12 +42,12 @@ section header h2{
 
 a, a:hover, a:focus, a:active {
     color: #000000;
+    text-decoration: underline;
 }
 
 .user-photo img {
     width: 100% !important;
-    max-width: 100%;
-    height: auto !important;
+    height: auto;
     border-radius: 0.5rem;
 }
 
