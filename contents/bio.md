@@ -1,5 +1,5 @@
 ## Bingqi Huang
-[Email](mailto:bingqih0311@gmail.com) / [CV](static/assets/CV_HBQ.pdf) / [Github](https://github.com/Bingqi-Huang)
+[Email](mailto:bingqih0311@gmail.com) / [CV](docs/CV_HBQ.pdf) / [Github](https://github.com/Bingqi-Huang)
 
 I am a Ph.D. student in [Distributed and Intelligent Space System Lab](http://www.dssllab.com/), School of Aerospace Engineering, Tsinghua University, starting from August 2025. My research interests include Mobile Manipulation and Human-Robot Interaction.
 
