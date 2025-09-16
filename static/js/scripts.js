@@ -42,6 +42,12 @@ window.addEventListener('DOMContentLoaded', event => {
             document.getElementById('awards-subtitle').innerHTML = '<i class="bi bi-award-fill"></i>&nbsp;' + config.awards.subtitle;
         });
 
+    fetch('contents/bio.md')
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('bio-md').innerHTML = marked.parse(text);
+        });
+
     fetch('contents/home.md')
         .then(response => response.text())
         .then(text => {
