@@ -1,5 +1,3 @@
-
-
 const content_dir = 'contents/'
 const config_file = 'config.yml'
 const section_names = ['home', 'news', 'publications', 'awards']
@@ -29,37 +27,43 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-
-    // Yaml
-    fetch(content_dir + config_file)
+    // Load content from YAML and Markdown files
+    fetch('contents/config.yml')
         .then(response => response.text())
         .then(text => {
-            const yml = jsyaml.load(text);
-            Object.keys(yml).forEach(key => {
-                try {
-                    document.getElementById(key).innerHTML = yml[key];
-                } catch {
-                    console.log("Unknown id and value: " + key + "," + yml[key].toString())
-                }
+            const config = jsyaml.load(text);
+            document.getElementById('title').innerText = config.title;
+            document.getElementById('page-top-title').innerText = config.name;
+            document.getElementById('copyright-text').innerHTML = config.copyright;
+            document.getElementById('github-link').href = "https://github.com/" + config.github_username;
+            document.getElementById('license-link').href = config.license_url;
+            document.getElementById('news-subtitle').innerHTML = '<i class="bi bi-newspaper"></i>&nbsp;' + config.news.subtitle;
+            document.getElementById('publications-subtitle').innerHTML = '<i class="bi bi-file-text-fill"></i>&nbsp;' + config.publications.subtitle;
+            document.getElementById('awards-subtitle').innerHTML = '<i class="bi bi-award-fill"></i>&nbsp;' + config.awards.subtitle;
+        });
 
-            })
-        })
-        .catch(error => console.log(error));
+    fetch('contents/home.md')
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('home-md').innerHTML = marked.parse(text);
+        });
 
+    fetch('contents/news.md')
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('news-md').innerHTML = marked.parse(text);
+        });
 
-    // Marked
-    marked.use({ mangle: false, headerIds: false })
-    section_names.forEach((name, idx) => {
-        fetch(content_dir + name + '.md')
-            .then(response => response.text())
-            .then(markdown => {
-                const html = marked.parse(markdown);
-                document.getElementById(name + '-md').innerHTML = html;
-            }).then(() => {
-                // MathJax
-                MathJax.typeset();
-            })
-            .catch(error => console.log(error));
-    })
+    fetch('contents/publications.md')
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('publications-md').innerHTML = marked.parse(text);
+        });
 
-}); 
+    fetch('contents/awards.md')
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('awards-md').innerHTML = marked.parse(text);
+        });
+
+});
