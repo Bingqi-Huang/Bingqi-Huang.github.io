@@ -7,9 +7,7 @@ Personal website at **https://bingqi-huang.github.io/**. A responsive, dependenc
 - `index.html`: biography, research, robotic systems, experience, education, honors, and selected publications.
 - `static/css/portfolio.css`: layout, typography, colors, mobile breakpoints, and reduced-motion support.
 - `static/js/portfolio.js`: mobile navigation and publication filtering.
-- `static/assets/img/`: portrait and LunarBot photographs, optimized as WebP.
-- `docs/Bingqi_Huang_Resume.pdf`: current downloadable resume.
-- `docs/CV_HBQ.pdf`: compatibility copy for existing CV links.
+- `static/assets/img/`: portrait, LunarBot photographs, and the LunarBot-Mini design rendering, optimized as WebP.
 
 No build step or third-party JavaScript is required. The page works directly from the repository root. Configure GitHub Pages to publish the root of the selected branch.
 
@@ -30,4 +28,4 @@ Prefer short compressed MP4 clips or an external video link for large recordings
 
 ## Content notes
 
-AGIBOT work is described only at a broad level. LunarBot-Mini is explicitly in development; Thoth is a manuscript in preparation; arXiv papers are identified as preprints. Research metrics and publication details follow the October 2026 resume. The older `contents/` directory and Bootstrap template assets are retained for reference and are not loaded by the new page.
+LunarBot-Mini is explicitly in development; Thoth is a manuscript in preparation; arXiv papers are identified as preprints. Research metrics and publication details follow the October 2026 resume. The older `contents/` directory and Bootstrap template assets are retained for reference and are not loaded by the new page.

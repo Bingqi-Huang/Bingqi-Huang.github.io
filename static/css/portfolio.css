@@ -20,7 +20,7 @@ body {
   background:var(--bg);
   color:var(--ink);
   font-family:Inter,"Helvetica Neue",Arial,sans-serif;
-  font-size:16px;
+  font-size:18px;
   line-height:1.65;
   -webkit-font-smoothing:antialiased
 }
@@ -87,7 +87,7 @@ nav {
 }
 nav a {
   text-decoration:none;
-  font-size:13px;
+  font-size:16px;
   font-weight:500
 }
 .nav-contact {
@@ -106,7 +106,7 @@ nav a {
 .eyebrow {
   text-transform:uppercase;
   letter-spacing:1.65px;
-  font-size:10px;
+  font-size:13px;
   font-weight:700;
   display:flex;
   align-items:center;
@@ -133,7 +133,7 @@ h1 span {
 }
 .hero-description {
   max-width:635px;
-  font-size:17px;
+  font-size:19px;
   line-height:1.8;
   color:var(--muted);
   margin-top:28px
@@ -149,7 +149,7 @@ h1 span {
   gap:30px;
   align-items:center;
   text-decoration:none;
-  font-size:13px;
+  font-size:16px;
   font-weight:500;
   padding:13px 20px;
   border-radius:3px
@@ -166,7 +166,7 @@ h1 span {
   display:inline-flex;
   gap:15px;
   align-items:center;
-  font-size:12px;
+  font-size:15px;
   font-weight:600;
   text-decoration:none;
   border-bottom:1px solid #92998e;
@@ -187,13 +187,13 @@ h1 span {
 .profile-caption {
   display:flex;
   flex-direction:column;
-  font-size:11px;
+  font-size:14px;
   line-height:1.9;
   color:var(--muted);
   margin-top:17px
 }
 .profile-caption strong {
-  font-size:14px;
+  font-size:17px;
   color:var(--ink);
   font-weight:600;
   margin-bottom:4px
@@ -208,11 +208,11 @@ h1 span {
   border-bottom:1px solid var(--line);
   padding:23px 0;
   margin-top:61px;
-  font-size:11px;
+  font-size:14px;
   color:var(--muted)
 }
 .strip-label {
-  font-size:10px;
+  font-size:13px;
   text-transform:uppercase;
   letter-spacing:1.6px;
   color:var(--ink);
@@ -225,12 +225,12 @@ h1 span {
   gap:40px
 }
 .small-heading {
-  font-size:12px;
+  font-size:15px;
   font-weight:600;
   margin-top:4px
 }
 .about-copy {
-  font-size:14px;
+  font-size:17px;
   color:var(--muted);
   max-width:780px
 }
@@ -256,7 +256,7 @@ h1 span {
   margin-top:13px
 }
 .section-heading>p {
-  font-size:13px;
+  font-size:16px;
   line-height:1.7;
   color:var(--muted);
   max-width:280px
@@ -271,7 +271,7 @@ h1 span {
   border-bottom:1px solid var(--line)
 }
 .research-index {
-  font-size:13px;
+  font-size:16px;
   color:#727b6c;
   padding-top:2px;
   font-variant-numeric:tabular-nums
@@ -281,7 +281,7 @@ h1 span {
   gap:20px;
   justify-content:space-between;
   color:var(--muted);
-  font-size:10px;
+  font-size:13px;
   letter-spacing:.6px;
   text-transform:uppercase
 }
@@ -298,7 +298,7 @@ h1 span {
   margin-left:10px
 }
 .research-body>p {
-  font-size:14px;
+  font-size:17px;
   color:var(--muted);
   max-width:825px
 }
@@ -323,21 +323,21 @@ h1 span {
   font-weight:500
 }
 .result strong span {
-  font-size:17px
+  font-size:19px
 }
 .result>span {
-  font-size:10px;
+  font-size:13px;
   color:var(--muted)
 }
 .model-note {
-  font-size:11px;
+  font-size:14px;
   color:var(--muted);
   align-self:center
 }
 .in-preparation {
   margin-left:auto;
   color:var(--muted);
-  font-size:11px
+  font-size:14px
 }
 .robots-section {
   background:var(--soft);
@@ -366,7 +366,7 @@ h1 span {
   left:17px;
   color:white;
   background:rgba(26,30,26,.8);
-  font-size:10px;
+  font-size:13px;
   letter-spacing:.5px;
   padding:5px 10px;
   border-radius:2px
@@ -378,12 +378,12 @@ h1 span {
   margin-top:12px
 }
 .robot-lead {
-  font-size:17px;
+  font-size:19px;
   line-height:1.5;
   margin-top:5px
 }
 .robot-copy>p:not(.robot-lead) {
-  font-size:13px;
+  font-size:16px;
   color:var(--muted);
   margin-top:15px
 }
@@ -396,7 +396,7 @@ h1 span {
   display:grid;
   grid-template-columns:75px 1fr;
   gap:15px;
-  font-size:11px;
+  font-size:14px;
   line-height:1.7;
   border-top:1px solid #d3d8cc;
   padding:10px 0
@@ -423,7 +423,7 @@ h1 span {
   object-position:center 38%
 }
 .robot-details figcaption {
-  font-size:11px;
+  font-size:14px;
   color:var(--muted);
   margin-top:10px
 }
@@ -443,11 +443,11 @@ h1 span {
   margin-top:8px
 }
 .mini-project>p {
-  font-size:13px;
+  font-size:16px;
   color:var(--muted)
 }
 .mini-date {
-  font-size:11px;
+  font-size:14px;
   color:var(--muted)
 }
 .experience-grid {
@@ -458,7 +458,7 @@ h1 span {
 .column-title {
   text-transform:uppercase;
   letter-spacing:1.5px;
-  font-size:10px;
+  font-size:13px;
   font-weight:600;
   color:var(--muted);
   border-bottom:1px solid var(--line);
@@ -483,23 +483,23 @@ h1 span {
   box-shadow:0 0 0 4px var(--bg)
 }
 .timeline-date {
-  font-size:10px;
+  font-size:13px;
   color:var(--muted);
   margin-bottom:7px
 }
 .timeline-item h4 {
-  font-size:17px;
+  font-size:19px;
   font-weight:500;
   line-height:1.4;
   letter-spacing:-.25px
 }
 .timeline-item .role {
-  font-size:12px;
+  font-size:15px;
   color:var(--ink);
   margin-top:4px
 }
 .timeline-item>p:last-child:not(.timeline-date) {
-  font-size:12px;
+  font-size:15px;
   color:var(--muted);
   margin-top:8px;
   line-height:1.8
@@ -513,7 +513,7 @@ h1 span {
 .honors>p {
   display:flex;
   gap:17px;
-  font-size:11px;
+  font-size:14px;
   color:var(--muted);
   margin-top:9px
 }
@@ -532,7 +532,7 @@ h1 span {
   border:1px solid transparent;
   background:none;
   cursor:pointer;
-  font-size:11px;
+  font-size:14px;
   padding:6px 12px;
   border-radius:2px;
   color:var(--muted)
@@ -557,12 +557,12 @@ h1 span {
   display:none
 }
 .pub-year {
-  font-size:11px;
+  font-size:14px;
   color:var(--muted);
   padding-top:3px
 }
 .publication-list h3 {
-  font-size:15px;
+  font-size:18px;
   font-weight:500;
   line-height:1.6;
   max-width:870px
@@ -575,7 +575,7 @@ h1 span {
   color:var(--muted)
 }
 .publication-list p {
-  font-size:11px;
+  font-size:14px;
   margin-top:5px;
   color:var(--muted)
 }
@@ -584,7 +584,7 @@ h1 span {
   color:var(--ink)
 }
 .publication-list .pub-venue {
-  font-size:10px;
+  font-size:13px;
   letter-spacing:.15px;
   margin-top:2px
 }
@@ -614,7 +614,7 @@ h1 span {
   margin-top:24px
 }
 .contact-links a {
-  font-size:11px;
+  font-size:14px;
   text-decoration:none;
   color:var(--muted)
 }
@@ -623,7 +623,7 @@ h1 span {
   justify-content:space-between;
   border-top:1px solid var(--line);
   padding-block:23px;
-  font-size:10px;
+  font-size:13px;
   color:var(--muted)
 }
 .site-footer a {
@@ -674,7 +674,7 @@ h1 span {
   }
   .intro-strip {
     gap:15px;
-    font-size:10px
+    font-size:13px
   }
   .about-section {
     grid-template-columns:110px 1fr;
@@ -688,13 +688,13 @@ h1 span {
     font-size:28px
   }
   .robot-lead {
-    font-size:15px
+    font-size:18px
   }
   .feature-list {
     margin:14px 0
   }
   .feature-list li {
-    font-size:10px;
+    font-size:13px;
     padding:7px 0
   }
   .experience-grid {
@@ -710,7 +710,7 @@ h1 span {
     gap:25px
   }
 }
-@media(max-width:760px) {
+@media(max-width:900px) {
   html {
     scroll-padding-top:75px
   }
@@ -729,7 +729,7 @@ h1 span {
     align-items:center;
     border:0;
     background:none;
-    font-size:12px;
+    font-size:15px;
     cursor:pointer;
     padding:8px 0 8px 10px
   }
@@ -758,7 +758,7 @@ h1 span {
     padding-left:0
   }
   nav a {
-    font-size:14px
+    font-size:17px
   }
   .hero {
     padding-top:44px;
@@ -766,7 +766,7 @@ h1 span {
     flex-direction:column
   }
   .hero .eyebrow {
-    font-size:9px;
+    font-size:12px;
     letter-spacing:1.3px
   }
   h1 {
@@ -775,7 +775,7 @@ h1 span {
     margin-top:22px
   }
   .hero-description {
-    font-size:15px;
+    font-size:18px;
     margin-top:23px
   }
   .hero-links {
@@ -784,12 +784,12 @@ h1 span {
     margin-top:26px
   }
   .button {
-    font-size:11px;
+    font-size:14px;
     padding:12px 15px;
     gap:24px
   }
   .text-link {
-    font-size:11px
+    font-size:14px
   }
   .hero-profile {
     display:flex;
@@ -805,10 +805,10 @@ h1 span {
   }
   .profile-caption {
     margin-top:0;
-    font-size:10px
+    font-size:13px
   }
   .profile-caption strong {
-    font-size:13px
+    font-size:16px
   }
   .intro-strip {
     margin-top:34px;
@@ -819,10 +819,10 @@ h1 span {
   }
   .strip-label {
     width:100%;
-    font-size:9px
+    font-size:12px
   }
   .intro-strip>span:not(.strip-label) {
-    font-size:10px
+    font-size:13px
   }
   .about-section {
     grid-template-columns:1fr;
@@ -830,7 +830,7 @@ h1 span {
     padding-block:30px
   }
   .about-copy {
-    font-size:13px
+    font-size:16px
   }
   .section {
     padding-block:40px
@@ -846,21 +846,21 @@ h1 span {
   .section-heading>p {
     margin-top:15px;
     max-width:360px;
-    font-size:12px
+    font-size:15px
   }
   .eyebrow {
-    font-size:9px
+    font-size:12px
   }
   .research-row {
     grid-template-columns:30px 1fr;
     padding-block:25px
   }
   .research-index {
-    font-size:10px
+    font-size:13px
   }
   .project-meta {
     gap:12px;
-    font-size:8px;
+    font-size:12px;
     letter-spacing:.2px
   }
   .research-body h3 {
@@ -869,12 +869,12 @@ h1 span {
   }
   .research-body h3 span {
     display:block;
-    font-size:17px;
+    font-size:19px;
     margin:3px 0 0;
     letter-spacing:-.3px
   }
   .research-body>p {
-    font-size:13px
+    font-size:16px
   }
   .research-footer {
     flex-wrap:wrap;
@@ -885,17 +885,17 @@ h1 span {
     font-size:25px
   }
   .result>span {
-    font-size:9px
+    font-size:12px
   }
   .research-footer>.text-link {
     margin-left:0
   }
   .model-note {
-    font-size:10px
+    font-size:13px
   }
   .in-preparation {
     margin-left:0;
-    font-size:10px
+    font-size:13px
   }
   .robots-section {
     margin-top:10px;
@@ -910,13 +910,13 @@ h1 span {
     font-size:30px
   }
   .robot-lead {
-    font-size:16px
+    font-size:18px
   }
   .robot-copy>p:not(.robot-lead) {
-    font-size:13px
+    font-size:16px
   }
   .feature-list li {
-    font-size:12px;
+    font-size:15px;
     padding:11px 0;
     grid-template-columns:70px 1fr
   }
@@ -929,7 +929,7 @@ h1 span {
     height:130px
   }
   .robot-details figcaption {
-    font-size:9px;
+    font-size:12px;
     line-height:1.6
   }
   .mini-project {
@@ -942,20 +942,20 @@ h1 span {
     font-size:24px
   }
   .mini-date {
-    font-size:10px
+    font-size:13px
   }
   .experience-grid {
     grid-template-columns:1fr;
     gap:30px
   }
   .timeline-item h4 {
-    font-size:17px
+    font-size:19px
   }
   .timeline-item>p:last-child:not(.timeline-date) {
-    font-size:13px
+    font-size:16px
   }
   .honors>p {
-    font-size:12px
+    font-size:15px
   }
   .publication-filters {
     margin-top:22px
@@ -965,16 +965,16 @@ h1 span {
     padding-block:20px
   }
   .publication-list h3 {
-    font-size:13px
+    font-size:16px
   }
   .pub-year {
-    font-size:9px
+    font-size:12px
   }
   .publication-list p {
-    font-size:10px
+    font-size:13px
   }
   .publication-list .pub-venue {
-    font-size:9px;
+    font-size:12px;
     overflow-wrap:anywhere
   }
   .contact-section {
@@ -990,7 +990,7 @@ h1 span {
     margin-left:8px
   }
   .site-footer {
-    font-size:9px;
+    font-size:12px;
     flex-wrap:wrap;
     gap:15px
   }
@@ -1021,6 +1021,31 @@ h1 span {
   }
   body {
     background:#fff;
-    font-size:12px
+    font-size:15px
   }
+}
+
+/* Readable text and project media across screen sizes. */
+.research-footer { flex-wrap:wrap; }
+.project-meta { flex-wrap:wrap; row-gap:6px; }
+.intro-strip { flex-wrap:wrap; gap:14px 24px; }
+.hero-profile img { width:100%; }
+.mini-project { grid-template-columns:1.1fr 1fr; gap:55px; align-items:center; padding-top:40px; }
+.mini-render img { width:100%; height:auto; border-radius:3px; }
+.mini-render figcaption { margin-top:10px; font-size:14px; color:var(--muted); }
+.mini-copy h3 { font-size:32px; margin-top:18px; }
+.mini-copy>p { font-size:17px; color:var(--muted); margin-top:16px; line-height:1.8; }
+@media(max-width:1000px) { .mini-project { gap:30px; } }
+@media(max-width:900px) {
+  .mini-project { grid-template-columns:1fr; gap:25px; }
+  .mini-copy h3 { font-size:28px; }
+  .mini-copy>p { font-size:17px; }
+  .profile-caption { flex:1; min-width:0; }
+  .hero-profile img { width:84px; flex-shrink:0; }
+  .project-meta { font-size:12px; }
+  .research-body h3 span { font-size:20px; }
+  .feature-list li { grid-template-columns:80px 1fr; }
+  .publication-list h3 { font-size:17px; }
+  .publication-list p { font-size:14px; }
+  .publication-list .pub-venue { font-size:13px; }
 }
